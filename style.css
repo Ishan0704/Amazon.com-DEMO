@@ -1,0 +1,44 @@
+*{
+    margin: 0px;
+    font-family: arial;
+    box-sizing: border-box;
+}
+
+/* css for navbar */
+
+.navbar{
+    height: 60px;
+    background-color: #0F1111;
+    display: flex;
+}
+.navbar .nav-logo{
+    margin-left: 13px;
+    width:113px;
+    height:100%;
+}
+.navbar .nav-logo .amazon-logo{
+    width:100px;
+    height:fit-content;
+}
+.navbar .nav-logo .nav-address{
+    width: 100px;
+    height: fit-content;
+}
+
+/* css for nav-address */
+.nav-address{
+    margin-left: 5px;
+    color:white;
+    display: flex;
+}
+.nav-address .loc-icon{
+    align-self: center;
+}
+.nav-address .actual-address{
+    display: block;
+    align-self: center;
+}
+.nav-address .actual-address .deliver-to{
+    font-size: 13px;
+    color: #CCCCCC;
+}
