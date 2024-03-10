@@ -10,6 +10,7 @@
     height: 60px;
     background-color: #0F1111;
     display: flex;
+    align-items: center;
 }
 .navbar .nav-logo{
     margin-left: 13px;
@@ -32,11 +33,11 @@
     display: flex;
 }
 .nav-address .loc-icon{
-    align-self: center;
+    /* align-self: center; */
 }
 .nav-address .actual-address{
     display: block;
-    align-self: center;
+    /* align-self: center; */
 }
 .nav-address .actual-address .deliver-to{
     font-size: 13px;
