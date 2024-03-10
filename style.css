@@ -27,10 +27,12 @@
 }
 
 /* css for nav-address */
+
 .nav-address{
     margin-left: 5px;
     color:white;
     display: flex;
+    margin-right: 4px;
 }
 .nav-address .loc-icon{
     /* align-self: center; */
@@ -43,3 +45,20 @@
     font-size: 13px;
     color: #CCCCCC;
 }
+
+/* css for nav-search */
+.nav-search{
+    height:40px;
+    display:flex;
+}
+.nav-search .input{
+    width:550px;
+}
+.nav-search .magnifying{
+    width:50px;
+    height:40px;
+    padding-top:10px;
+    justify-content: center;
+    background-color: rgb(218, 140, 23);
+}
+
